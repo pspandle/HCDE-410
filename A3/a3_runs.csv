@@ -1,1 +1,240 @@
 run,prompt,model,version,timestamp,output,verified,notes
+1,"This table lists concerts from 2026, and the 'Went' column marks the ones I attended. How many shows did I go to per venue in Seattle? Report Seattle venues and also give a grouped non-Seattle number.
+
+Date Artist Venue Went 
+10/31 Subtronics, Sara Landry, Cloonee, itsmurph WAMU Yes 
+10/15 DojaCat Climate Pledge Arena Yes 
+10/08/2026 Jigitz The Showbox Yes 
+10/07 Jane Remover The Neptune Theater Yes 
+9/30 Bassvictim Showbox SoDo Yes 
+9/28 The Hellp HUB Lawn Yes 
+9/22 Nomu. Barboza Yes 
+9/1 Tame Impala Climate Pledge Arena No 
+8/28 Kayzo The Concourse Project Yes 
+8/9 ISOXO Showbox Sodo Yes 
+7/12 Avello Vulcan Gas Company Yes 
+6/30 A$AP Rocky Climate Pledge Arena No 
+6/24 Don Toliver Climate Pledge Arena No 
+5/13 Baby Keem Wamu Yes 
+5/12 Florence + The Machine Climate Pledge Arena No 
+5/9 Ray Volpe B2B Kai Wachi Cuthbert Ampitheater Yes 
+4/24 Frost Children HUB Lawn Yes 
+3/21 Crankdat Tacoma Dome Yes
+ 2/22/26 Cardi B Climate Pledge Yes 
+2/19 Jordan Ward Neumos Yes",Claude,Sonnet 5.5,4:52 PM,"| Seattle venue | Shows attended |
+|---|---|
+| WAMU Theater | 2 |
+| Climate Pledge Arena | 2 |
+| HUB Lawn | 2 |
+| Showbox SoDo | 2 |
+| The Showbox | 1 |
+| The Neptune Theater | 1 |
+| Barboza | 1 |
+| The Concourse Project | 1 |
+| Neumos | 1 |
+| **Seattle total** | **13** |
+
+**Non-Seattle: 3 shows.** These were Vulcan Gas Company (Austin, TX), Cuthbert Amphitheater (Eugene, OR) and Tacoma Dome (Tacoma, WA). 
+
+[assumptions trimmed]",wrong,"Seattle total reported 13 vs truth 12. Non-Seattle reported 3 vs truth 4.
+Counts that differed from truth: 1 (by how much).
+Cause of the error: Thought The Concourse Project was in Seattle (which rule or fact it got wrong).
+Other behavior worth noting: stated assumptions (Showbox and Showbox SoDo are different, spelling varients, No rows excluded)."
+2,"This table lists concerts from 2026, and the 'Went' column marks the ones I attended. How many shows did I go to per venue in Seattle? Report Seattle venues and also give a grouped non-Seattle number.
+
+Date Artist Venue Went 
+10/31 Subtronics, Sara Landry, Cloonee, itsmurph WAMU Yes 
+10/15 DojaCat Climate Pledge Arena Yes 
+10/08/2026 Jigitz The Showbox Yes 
+10/07 Jane Remover The Neptune Theater Yes 
+9/30 Bassvictim Showbox SoDo Yes 
+9/28 The Hellp HUB Lawn Yes 
+9/22 Nomu. Barboza Yes 
+9/1 Tame Impala Climate Pledge Arena No 
+8/28 Kayzo The Concourse Project Yes 
+8/9 ISOXO Showbox Sodo Yes 
+7/12 Avello Vulcan Gas Company Yes 
+6/30 A$AP Rocky Climate Pledge Arena No 
+6/24 Don Toliver Climate Pledge Arena No 
+5/13 Baby Keem Wamu Yes 
+5/12 Florence + The Machine Climate Pledge Arena No 
+5/9 Ray Volpe B2B Kai Wachi Cuthbert Ampitheater Yes 
+4/24 Frost Children HUB Lawn Yes 
+3/21 Crankdat Tacoma Dome Yes
+ 2/22/26 Cardi B Climate Pledge Yes 
+2/19 Jordan Ward Neumos Yes",Claude,Sonnet 5.5,5:00 PM,"**Seattle venues (13 shows)**
+
+| Venue | Shows |
+|---|---|
+| Climate Pledge Arena | 2 (Doja Cat, Cardi B) |
+| WAMU Theater | 2 (Subtronics et al., Baby Keem) |
+| HUB Lawn | 2 (The Hellp, Frost Children) |
+| Showbox SoDo | 2 (Bassvictim, ISOXO) |
+| The Showbox | 1 (Jigitz) |
+| The Neptune Theater | 1 (Jane Remover) |
+| Barboza | 1 (Nomu.) |
+| The Concourse Project | 1 (Kayzo) |
+| Neumos | 1 (Jordan Ward) |
+
+**Non-Seattle (3 shows)**
+- Vulcan Gas Company (Austin, TX): Avello
+- Cuthbert Amphitheater (Eugene, OR): Ray Volpe B2B Kai Wachi
+- Tacoma Dome (Tacoma, WA): Crankdat
+
+[assumptions trimmed]",wrong,"Seattle total reported 13 vs truth 12. Non-Seattle reported 3 vs truth 4.
+Counts that differed from truth: 1 (by how much).
+Cause of the error: Thought The Concourse Project was in Seattle (which rule or fact it got wrong).
+Other behavior worth noting: stated assumptions (Showbox and Showbox SoDo are different, spelling varients, No rows excluded), added names of artists who played each venue."
+3,"This table lists concerts from 2026, and the 'Went' column marks the ones I attended. How many shows did I go to per venue in Seattle? Report Seattle venues and also give a grouped non-Seattle number.
+
+Date Artist Venue Went 
+10/31 Subtronics, Sara Landry, Cloonee, itsmurph WAMU Yes 
+10/15 DojaCat Climate Pledge Arena Yes 
+10/08/2026 Jigitz The Showbox Yes 
+10/07 Jane Remover The Neptune Theater Yes 
+9/30 Bassvictim Showbox SoDo Yes 
+9/28 The Hellp HUB Lawn Yes 
+9/22 Nomu. Barboza Yes 
+9/1 Tame Impala Climate Pledge Arena No 
+8/28 Kayzo The Concourse Project Yes 
+8/9 ISOXO Showbox Sodo Yes 
+7/12 Avello Vulcan Gas Company Yes 
+6/30 A$AP Rocky Climate Pledge Arena No 
+6/24 Don Toliver Climate Pledge Arena No 
+5/13 Baby Keem Wamu Yes 
+5/12 Florence + The Machine Climate Pledge Arena No 
+5/9 Ray Volpe B2B Kai Wachi Cuthbert Ampitheater Yes 
+4/24 Frost Children HUB Lawn Yes 
+3/21 Crankdat Tacoma Dome Yes
+ 2/22/26 Cardi B Climate Pledge Yes 
+2/19 Jordan Ward Neumos Yes",Claude,Sonnet 5.5,5:03 PM,"You went to 16 shows in 2026, 13 of them in Seattle.
+
+| Seattle venue | Shows attended |
+|---|---|
+| Climate Pledge Arena | 2 |
+| WaMu Theater | 2 |
+| Showbox SoDo | 2 |
+| HUB Lawn | 2 |
+| The Showbox | 1 |
+| The Neptune Theater | 1 |
+| Barboza | 1 |
+| The Concourse Project | 1 |
+| Neumos | 1 |
+| **Seattle total** | **13** |
+
+**Non-Seattle (grouped): 3 shows.** These were Vulcan Gas Company (Austin), Cuthbert Amphitheater (Eugene) and Tacoma Dome (Tacoma). 
+
+[assumptions trimmed]",wrong,"Seattle total reported 13 vs truth 12. Non-Seattle reported 3 vs truth 4.
+Counts that differed from truth: 1 (by how much).
+Cause of the error: Thought The Concourse Project was in Seattle (which rule or fact it got wrong).
+Other behavior worth noting: stated assumptions (Showbox and Showbox SoDo are different, spelling variants, No rows excluded), placed the venues' cities from own knowledge."
+4,"This table lists concerts from 2026, and the 'Went' column marks the ones I attended. How many shows did I go to per venue in Seattle? Report Seattle venues and also give a grouped non-Seattle number.
+
+Date Artist Venue Went 
+10/31 Subtronics, Sara Landry, Cloonee, itsmurph WAMU Yes 
+10/15 DojaCat Climate Pledge Arena Yes 
+10/08/2026 Jigitz The Showbox Yes 
+10/07 Jane Remover The Neptune Theater Yes 
+9/30 Bassvictim Showbox SoDo Yes 
+9/28 The Hellp HUB Lawn Yes 
+9/22 Nomu. Barboza Yes 
+9/1 Tame Impala Climate Pledge Arena No 
+8/28 Kayzo The Concourse Project Yes 
+8/9 ISOXO Showbox Sodo Yes 
+7/12 Avello Vulcan Gas Company Yes 
+6/30 A$AP Rocky Climate Pledge Arena No 
+6/24 Don Toliver Climate Pledge Arena No 
+5/13 Baby Keem Wamu Yes 
+5/12 Florence + The Machine Climate Pledge Arena No 
+5/9 Ray Volpe B2B Kai Wachi Cuthbert Ampitheater Yes 
+4/24 Frost Children HUB Lawn Yes 
+3/21 Crankdat Tacoma Dome Yes
+ 2/22/26 Cardi B Climate Pledge Yes 
+2/19 Jordan Ward Neumos Yes",ChatGPT,GPT-6,5:12 PM,"### Seattle venues
+
+| Venue                | Shows attended |
+| -------------------- | -------------- |
+| Climate Pledge Arena | 2              |
+| WAMU Theater         | 2              |
+| The Showbox          | 2              |
+| Showbox SoDo         | 2              |
+| HUB Lawn             | 2              |
+| The Neptune Theater  | 1              |
+| Barboza              | 1              |
+| Neumos               | 1              |
+| Seattle total        | 13             |
+
+### Non-Seattle venues
+
+| Venue                          | Shows attended |
+| ------------------------------ | -------------- |
+| The Concourse Project (Austin) | 1              |
+| Vulcan Gas Company (Austin)    | 1              |
+| Cuthbert Amphitheater (Eugene) | 1              |
+| Tacoma Dome (Tacoma)           | 1              |
+| Non-Seattle total              | 4              |
+
+Overall breakdown
+12
+Seattle shows
+
+4
+Non-Seattle shows
+
+75% Seattle
+
+25% Non-Seattle
+
+Total concerts attended
+16
+
+Correction to the initial table: The Showbox had 1 show, while Showbox SoDo had 2. Seattle venue classifications are consistent with the Seattle venue directory.",correct,"Seattle total reported 12 vs truth 12. Non-Seattle reported 4 vs truth 4.
+Counts that differed from truth: 0 (by how much).
+Cause of the error: N/A (corrected self within the output).
+Other behavior worth noting: The output table is incorrect but it corrected in the last line of the output so I am counting it as correct because the overall breakdown has the correct split and the non-Seattle venues table is correct, it also added citation with the correction note."
+5,"This table lists concerts from 2026, and the 'Went' column marks the ones I attended. How many shows did I go to per venue in Seattle? Report Seattle venues and also give a grouped non-Seattle number.
+
+Date Artist Venue Went 
+10/31 Subtronics, Sara Landry, Cloonee, itsmurph WAMU Yes 
+10/15 DojaCat Climate Pledge Arena Yes 
+10/08/2026 Jigitz The Showbox Yes 
+10/07 Jane Remover The Neptune Theater Yes 
+9/30 Bassvictim Showbox SoDo Yes 
+9/28 The Hellp HUB Lawn Yes 
+9/22 Nomu. Barboza Yes 
+9/1 Tame Impala Climate Pledge Arena No 
+8/28 Kayzo The Concourse Project Yes 
+8/9 ISOXO Showbox Sodo Yes 
+7/12 Avello Vulcan Gas Company Yes 
+6/30 A$AP Rocky Climate Pledge Arena No 
+6/24 Don Toliver Climate Pledge Arena No 
+5/13 Baby Keem Wamu Yes 
+5/12 Florence + The Machine Climate Pledge Arena No 
+5/9 Ray Volpe B2B Kai Wachi Cuthbert Ampitheater Yes 
+4/24 Frost Children HUB Lawn Yes 
+3/21 Crankdat Tacoma Dome Yes
+ 2/22/26 Cardi B Climate Pledge Yes 
+2/19 Jordan Ward Neumos Yes",Claude,Sonnet 5.5,6:40 PM,"**Seattle venues (13 shows)**
+
+| Venue | Shows |
+|---|---|
+| WAMU | 2 |
+| Climate Pledge Arena | 2 |
+| Showbox SoDo | 2 |
+| HUB Lawn | 2 |
+| The Showbox | 1 |
+| The Neptune Theater | 1 |
+| Barboza | 1 |
+| The Concourse Project | 1 |
+| Neumos | 1 |
+
+**Non-Seattle (3 shows)**
+- Vulcan Gas Company (Austin, TX)
+- Cuthbert Amphitheater (Eugene, OR)
+- Tacoma Dome (Tacoma, WA)
+
+That's 16 shows attended in total.
+[assumptions trimmed]",No,"Seattle total reported 13 vs truth 12. Non-Seattle reported 3 vs truth 4.
+Counts that differed from truth: 1 (by how much).
+Cause of the error: Thought The Concourse Project was in Seattle (which rule or fact it got wrong).
+Other behavior worth noting: stated assumptions (Showbox and Showbox SoDo are different, shows marked as No were excluded)."
