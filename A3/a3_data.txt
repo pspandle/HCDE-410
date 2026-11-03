@@ -1,0 +1,21 @@
+Date	Artist	Venue	Went
+10/31	Subtronics, Sara Landry, Cloonee, itsmurph	WAMU	Yes
+10/15	DojaCat	Climate Pledge Arena	Yes
+10/08/2026	Jigitz	The Showbox	Yes
+10/07	Jane Remover	The Neptune Theater	Yes
+9/30	Bassvictim	Showbox SoDo	Yes
+9/28	The Hellp	HUB Lawn	Yes
+9/22	Nomu.	Barboza	Yes
+9/1	Tame Impala	Climate Pledge Arena	No
+8/28	Kayzo	The Concourse Project	Yes
+8/9	ISOXO	Showbox Sodo	Yes
+7/12	Avello	Vulcan Gas Company	Yes
+6/30	A$AP Rocky	Climate Pledge Arena	No
+6/24	Don Toliver	Climate Pledge Arena	No
+5/13	Baby Keem	Wamu	Yes
+5/12	Florence + The Machine	Climate Pledge Arena	No
+5/9	Ray Volpe B2B Kai Wachi	Cuthbert Ampitheater	Yes
+4/24	Frost Children	HUB Lawn	Yes
+3/21	Crankdat	Tacoma Dome	Yes
+2/22/26	Cardi B	Climate Pledge	Yes
+2/19	Jordan Ward	Neumos	Yes
