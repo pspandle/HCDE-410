@@ -14,5 +14,7 @@ The Neptune Theater: 1
 Showbox SoDo: 2
 HUB Lawn: 2
 Barboza: 1
-Non-Seattle Venues: 4
 Neumos: 1
+Seattle Total: 12
+
+Non-Seattle Venues: 4
