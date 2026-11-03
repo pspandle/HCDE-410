@@ -234,7 +234,7 @@ Date Artist Venue Went 
 - Tacoma Dome (Tacoma, WA)
 
 That's 16 shows attended in total.
-[assumptions trimmed]",No,"Seattle total reported 13 vs truth 12. Non-Seattle reported 3 vs truth 4.
+[assumptions trimmed]",wrong,"Seattle total reported 13 vs truth 12. Non-Seattle reported 3 vs truth 4.
 Counts that differed from truth: 1 (by how much).
 Cause of the error: Thought The Concourse Project was in Seattle (which rule or fact it got wrong).
 Other behavior worth noting: stated assumptions (Showbox and Showbox SoDo are different, shows marked as No were excluded)."
