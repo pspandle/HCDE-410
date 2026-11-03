@@ -1,0 +1,3 @@
+Prompt:
+"This table lists concerts from 2026, and the 'Went' column marks the ones I attended. How many shows did I go to per venue in Seattle? Report Seattle venues and also give a grouped non-Seattle number."
+d
