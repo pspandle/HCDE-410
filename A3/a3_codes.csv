@@ -1,1 +1,12 @@
 observation,theme
+Participant says the output table is easy to read and the assumptions make sense,Perceived credibility
+Participant notices that dates are missing from the output,Transparency and interpretability
+Participant is unsure whether to trust the output depending on the importance of the task,Conditional trust
+Participant questions why AI is useful if its work still needs to be checked,Conditional trust
+Participant reads through the original input again and compares it to the output,Verification barriers
+Participant finds the input difficult to read while trying to check the results,Verification barriers
+Participant tries to manually compare attended shows but eventually gives up,Verification barriers
+Participant says they would not change the original prompt,Prompt confidence
+Participant thinks the output checks out after partially verifying it,Perceived credibility
+Participant wants venue level counts to see which shows were not attended,Transparency and interpretability
+Participant does not recognize all venue names and therefore would not have caught the error,Knowledge limitations
