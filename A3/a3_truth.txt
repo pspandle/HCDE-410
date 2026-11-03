@@ -1,0 +1,18 @@
+Rules:
+1. WAMU and Wamu are the same venue, Showbox SoDo and Showbox Sodo are the same venue, and Climate Pledge and Climate Pledge Arena are the same venue. Spelling, capitalization, and shortened names get merged.
+2. The Showbox and Showbox SoDo are different venues. Don’t merge them.
+3. Barboza and Neumos are different venues. Barboza is a room inside the Neumos complex, so you count it separately.
+4. Non-Seattle venues are grouped together. Tacoma Dome (Tacoma, WA), Cuthbert Ampitheater (Eugene, OR), The Concourse Project (Austin, TX), and Vulcan Gas Company (Austin, TX) are counted together.
+5. Only when 'Went' is Yes do the rows count. The four No rows are excluded.
+6. A show with several artists is one show. The Subtronics row lists four artists but is a single concert.
+
+Counts:
+WAMU: 2
+Climate Pledge Arena: 2
+The Showbox: 1
+The Neptune Theater: 1
+Showbox SoDo: 2
+HUB Lawn: 2
+Barboza: 1
+Non-Seattle Venues: 4
+Neumos: 1
